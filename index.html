@@ -1,156 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-cn">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Finance - talk in css</title>
-    <style>
-        @font-face{
-    font-family:'icomoon';
-    src:url("./fonts/icomoon.eot?yisc3l");
-    src:url("./fonts/icomoon.eot?yisc3l#iefix") format("embedded-opentype"),
-    url("./fonts/icomoon.woff2?yisc3l") format("woff2"),
-    url("./fonts/icomoon.ttf?yisc3l") format("truetype"),
-    url("./fonts/icomoon.woff?yisc3l") format("woff"),
-    url("./fonts/icomoon.svg?yisc3l#icomoon") format("svg");
-}
-*{
-    margin: 0;
-    padding: 0;
-}
-a{
-    text-decoration: none;
-}
-.sleft{
-    float: left;
-    border-right: 1px solid #BDDAF5;
-    width: 182px;
-    margin: 6px 0 5px 12px;
-}
-.sright{
-    float: left;
-    margin: 6px 0 5px 12px;
-}
-.finance-wrapper{
-    height: 102px;
-    border: 1px solid #CAE0F3;
-    border-top: 3px solid #9EC9EE;
-    overflow: hidden;
-    width: 388px;
-}
-.st-item .detail span {
-    color: #DF4D42;
-}
-.icon-num-2{
-    font-family: 'icomoon' !important;
-}
-.icon-num-7{
-    font-family: 'icomoon' !important;
-}
-.icon-num-8{
-    font-family: 'icomoon' !important;
-}
-.icon-num-3{
-    font-family: 'icomoon' !important;
-}
-.icon-num-d{
-    font-family: 'icomoon' !important;
-}
-.icon-num-0{
-    font-family: 'icomoon' !important;
-}
-.icon-num-5{
-    font-family: 'icomoon' !important;
-}
-.icon-num-2:before{
-    content: "\32";
-}
-.icon-num-7:before{
-    content: "\37";
-}
-.icon-num-8:before{
-    content: "\38";
-}
-.icon-num-3:before{
-    content: "\33";
-}
-.icon-num-d:before{
-    content: "\2e";
-}
-.icon-num-0:before{
-    content: "\30";
-}
-.icon-num-5:before{
-    content: "\35";
-}
-    </style>
+    <title>DrumKit</title>
+    <link rel="stylesheet" href="./main.css">
 </head>
+
 <body>
-    <!-- 在页面的占位 -->
-    <div class="finance-wrapper">
-        <!-- PC 端使用   考虑兼容性 -->
-        <div class="sleft">
-            <div class="st-item st-item-t">
-                <!-- 可用性 和产品经理交流需求 -->
-                <a href="#" class="st-title">
-                    上证指数
-                </a>
-                <div class="detail">
-                    <a href="#" class="detail-down">
-                        <span class="price">
-                            <span class="icon-num-2"></span>
-                            <span class="icon-num-7"></span>
-                            <span class="icon-num-8"></span>
-                            <span class="icon-num-3"></span>
-                            <span class="icon-num-d"></span>
-                            <span class="icon-num-0"></span>
-                            <span class="icon-num-5"></span>
-                        </span>
-                        <span class="float">-13.58</span>
-                        <span class="percent">-0.49%</span>
-                    </a>
-                </div>
-            </div>
-            <div class="st-item">
-                <a href="#" class="st-title">
-                    上证指数
-                </a>
-                <div class="detail">
-                    <a href="#">
-                        <span class="price">2783.05</span>
-                        <span class="float">-13.58</span>
-                        <span class="percent">-0.49%</span>
-                    </a>
-                </div>
-            </div>
+    <!-- .keys>(.key>div+span.sound)*9   快速生成 -->
+    <div class="keys">
+        <div class="key"  id="k65">
+            <div>A</div>
+            <span class="sound">CLAP</span>
         </div>
-        <div class="sright">
-            <div class="st-item st-item-t">
-                <!-- 可用性 和产品经理交流需求 -->
-                <a href="#" class="st-title">
-                    上证指数
-                </a>
-                <div class="detail">
-                    <a href="#" class="detail-down">
-                        <span class="price">2783.05</span>
-                        <span class="float">-13.58</span>
-                        <span class="percent">-0.49%</span>
-                    </a>
-                </div>
-            </div>
-            <div class="st-item">
-                <a href="#" class="st-title">
-                    上证指数
-                </a>
-                <div class="detail">
-                    <a href="#">
-                        <span class="price">2783.05</span>
-                        <span class="float">-13.58</span>
-                        <span class="percent">-0.49%</span>
-                    </a>
-                </div>
-            </div>
+        <div class="key" id="k83">
+            <div>S</div>
+            <span class="sound">HIHAT</span>
+        </div>
+        <div class="key" id="k68">
+            <div>D</div>
+            <span class="sound">KICK</span>
+        </div>
+        <div class="key" id="k70">
+            <div>F</div>
+            <span class="sound">OPENHAT</span>
+        </div>
+        <div class="key" id="k71">
+            <div>G</div>
+            <span class="sound">BOOM</span>
+        </div>
+        <div class="key" id="k72">
+            <div>H</div>
+            <span class="sound">RIDE</span>
+        </div>
+        <div class="key" id="k74">
+            <div>J</div>
+            <span class="sound">SNARE</span>
+        </div>
+        <div class="key" id="k75">
+            <div>K</div>
+            <span class="sound">TOM</span>
+        </div>
+        <div class="key" id="k76">
+            <div>L</div>
+            <span class="sound">TINK</span>
         </div>
     </div>
+  <!-- 声音 -->
+  <audio src="sounds/clap.wav" data-key="65"></audio>
+  <audio src="sounds/hihat.wav" data-key="83"></audio>
+  <audio src="sounds/kick.wav" data-key="68"></audio>
+  <audio src="sounds/openhat.wav" data-key="70"></audio>
+  <audio src="sounds/boom.wav" data-key="71"></audio>
+  <audio src="sounds/ride.wav" data-key="72"></audio>
+  <audio src="sounds/snare.wav" data-key="74"></audio>
+  <audio src="sounds/tom.wav" data-key="75"></audio>
+  <audio src="sounds/tink.wav" data-key="76"></audio>
+  <script>
+   
+    const playSound = function(event) {
+    let keyCode = event.keyCode;
+    
+    const ele = document.querySelector(`audio[data-key="${keyCode}"]`)
+    const key = document.querySelector('#k'+`${keyCode}`);
+      console.log(ele);  
+      if(ele){
+        key.classList.add('playing');
+                setTimeout(function(){
+                    key.classList.remove('playing')
+                },1000)
+                ele.play();
+      }
+  } 
+  window.addEventListener('keydown', playSound);
+  </script>
 </body>
 </html>

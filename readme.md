@@ -1,7 +1,13 @@
-1. es6 让代码更优雅
-2. array 语义化的方法， 代码可读性提升 array.filter
-    for 数学
-    js 语文课
-    letcode 数学课
-3. arraw function 函数的es6 新写法
-    age => age >=
+# h5 案例打击乐
+
+- 程序文档编写格式 markdown 广泛的支持
+   
+
+- html5 是最酷的   网易
+强大表现力，用 html + css 模拟一个PC 打击键盘
+
+- 快速且准确的完成html结构编写
+  对于页面结构的分析
+
+- stylus 除了可以省去：{} 
+  还可以提供像js 一样的模块化代码，代码的可读性提升
